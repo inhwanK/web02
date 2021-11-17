@@ -63,6 +63,6 @@ public class DBCPInit extends HttpServlet {
 		} catch (Exception e) {
 			throw new RuntimeException("fail to load JDBC Driver");
 		}
-		
 	}
+	
 }
